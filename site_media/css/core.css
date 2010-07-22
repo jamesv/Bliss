@@ -42,11 +42,19 @@ body {
 
 /*  Fonts  */
 body {
-    font-family: Lucida Sans Unicode, Lucida, verdana, sans;
+    font-family: Century Gothic, Apple Gothic, sans-serif ;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    /*font-family: Helvetica Neue, Helvetica, sans-serif ;*/
+    /*font-family: Lucida Sans Unicode, Lucida, verdana, sans;*/
     color: #FAF5F5;
     font-size: 11px;
     text-align: justify; 
     text-justify: newspaper;
+    }
+
+p {
+    line-height: 15px;
     }
     
 em {
@@ -61,7 +69,7 @@ h1, h2, h3, h4, h5, h6 {
     }
 
 h1 {
-    font-family: Zapfino;
+    font-family: Zapfino, Edwardian Script ITC;
     font-weight: normal;
     font-size: 36px;
     margin-bottom: -30px;
@@ -73,7 +81,7 @@ h1 {
 
 h2 {
     font-weight: normal;
-    font-family: Zapfino;
+    font-family: Zapfino, Edwardian Script ITC;
     font-size: 20px;
     color: #B8C45A;
     position: absolute;
@@ -83,7 +91,7 @@ h2 {
 
 h4 {
     font-weight: normal;
-    font-size: 14px;
+    font-size: 13px;
     color: #777777;
     }
 
@@ -119,11 +127,11 @@ h4 {
         
         
         #nav {
-            font-size: 14px;
-            width: 415px;
+            font-size: 13px;
+            width: 435px;
             /* border: 1px solid #ff19b2; */
             color: #444444;
-            margin: 16px auto 0;
+            margin: 20px auto 0;
             padding: 0;
             text-align: center;
             }
@@ -131,7 +139,7 @@ h4 {
             #nav li {
                 float: left;
                 list-style: none;
-                padding: 0 10px;
+                padding: 0 10px 4px;
                 border-left: 1px solid #444444;
                 }
                 
@@ -143,6 +151,7 @@ h4 {
                 color: #777777;
                 text-decoration: none;
                 border-bottom: 1px solid #B8C45A;
+                padding-bottom: 2px;
                 }
                 
             #nav a:hover {
