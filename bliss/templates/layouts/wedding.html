@@ -1,0 +1,27 @@
+{% load ui %}
+<html>
+<head>
+	<title>{% block title %}James Vreeland &amp; Amanda Simmons - August 1, 2010{% endblock %}
+	<link rel="stylesheet" href="/css/core.css" type="text/css" media="screen" charset="utf-8" />
+	<link rel="shortcut icon" href="/img/favicon.ico" />
+</head>
+<body>
+	<div id='wrapper'>
+		<div id='header' class='c glowBox'>
+			<h1>james <span class='dull'>&amp;</span> amanda</h1>
+			<h4>august 1, 2010</h4>
+			<h4>vegas, baby. vegas!</h4>
+			{{'home'|drawNav}}
+			
+			<img src='img/corner.png' class='corner tl' />
+			<img src='img/corner.png' class='corner br' />
+		</div>
+		
+		{% block content %}{% endblock %}
+		
+		<div id='footer' class='c'>
+			It's not a wedding site until someone busts out Zapfino
+		</div>
+	</div>
+</body>
+</html>
