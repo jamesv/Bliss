@@ -1,6 +1,6 @@
 {% extends "layouts/wedding.html" %}
-
-{% block title %}{% endblock %}
+{% load ui %}
+{% block title %}Got hitched - August 1, 2010{% endblock %}
 
 {% block content %}
 <!-- Intro copy -->
@@ -21,63 +21,7 @@
 <!-- Photo gallery -->
 <div id='photos' class='c title'>
 	<h2 class='g'>don't we look precious?</h2>
-	<div class='glowBox g photos'>
-		<div id='slideshow' class='slideshow'></div>
-		<div id='thumbs' class='ac'>
-			<ul class="thumbs noscript">
-				<li>
-					<a class='thumb' href='/img/photos/00_00_couple.jpg' title='alt text'>
-						<img src='/img/photos/00_00_couple_t.jpg' alt='alt text' />
-					</a>
-				</li>
-				<li>
-					<a class='thumb' href='/img/photos/00_00_couple.jpg' title='alt text'>
-						<img src='/img/photos/00_00_couple_t.jpg' alt='alt text' />
-					</a>
-				</li>
-				<li>
-					<a class='thumb' href='/img/photos/00_00_couple.jpg' title='alt text'>
-						<img src='/img/photos/00_00_couple_t.jpg' alt='alt text' />
-					</a>
-				</li>
-				<li>
-					<a class='thumb' href='/img/photos/00_00_couple.jpg' title='alt text'>
-						<img src='/img/photos/00_00_couple_t.jpg' alt='alt text' />
-					</a>
-				</li>
-				<li>
-					<a class='thumb' href='/img/photos/00_00_couple.jpg' title='alt text'>
-						<img src='/img/photos/00_00_couple_t.jpg' alt='alt text' />
-					</a>
-				</li>
-				<li>
-					<a class='thumb' href='/img/photos/00_00_couple.jpg' title='alt text'>
-						<img src='/img/photos/00_00_couple_t.jpg' alt='alt text' />
-					</a>
-				</li>
-				<li>
-					<a class='thumb' href='/img/photos/00_00_couple.jpg' title='alt text'>
-						<img src='/img/photos/00_00_couple_t.jpg' alt='alt text' />
-					</a>
-				</li>
-				<li>
-					<a class='thumb' href='/img/photos/00_00_couple.jpg' title='alt text'>
-						<img src='/img/photos/00_00_couple_t.jpg' alt='alt text' />
-					</a>
-				</li>
-			</ul>
-		</div>
-		<div id="controls" class='controls'></div>
-		<script>
-		jQuery(document).ready(function($) {
-		    var gallery = $('#thumbs').galleriffic({
-		        delay:                     3000, // in milliseconds
-		        imageContainerSel:         '#slideshow', // The CSS selector for the element within which the main slideshow image should be rendered
-		        controlsContainerSel:      '#controls', // The CSS selector for the element within which the slideshow controls should be rendered
-		    });
-		});
-		</script>
-	</div>
+	{{photos|drawPhotos}}
 </div>
 
 {% endblock %}

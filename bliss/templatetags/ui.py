@@ -47,4 +47,36 @@ def drawNav(value):
     nav += "</ul>"
     return mark_safe(nav)
     
+@register.filter()
+def drawPhotos(photos, prefix=''):
+    gallery  = "<div class='glowBox g photos'>"
+    gallery += "<div id='"+prefix+"slideshow' class='slideshow'></div>"
+    gallery += "<div id='"+prefix+"thumbs' class='ac'>"
+    gallery += "	<ul class='thumbs noscript'>"
+    for photo in photos:
+        gallery += "		<li>"
+        gallery += "			<a class='thumb' href='/img/photos/"+photo[0]+".jpg' title='"+photo[1]+"'>"
+        gallery += "				<img src='/img/photos/"+photo[0]+"_t.jpg' alt='"+photo[1]+"' />"
+        gallery += "			</a>"
+        gallery += "		</li>"
+    gallery += "	</ul>"
+    gallery += "</div>"
+    gallery += "<div id='"+prefix+"controls' class='controls'></div>"
+    gallery += "<script>"
+    gallery += "jQuery(document).ready(function($) {"
+    gallery += "    var gallery = $('#"+prefix+"thumbs').galleriffic({"
+    gallery += "        delay:                     3000, "
+    gallery += "        imageContainerSel:         '#"+prefix+"slideshow', "
+    gallery += "        controlsContainerSel:      '#"+prefix+"controls', "
+    gallery += "    });"
+    gallery += "});"
+    gallery += "</script>"
+    gallery += "</div>"
+    
+    return mark_safe(gallery)
+    
+    
+    
+    
+    
 

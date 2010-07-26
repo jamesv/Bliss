@@ -1,0 +1,29 @@
+{% extends "layouts/wedding.html" %}
+{% load ui %}
+
+{% block title %}Who?{% endblock %}
+
+{% block content %}
+<!-- About Us copy -->
+<div id='about' class='c title'>
+	<div class='g'>
+		<h2>who are you again?</h2>
+		<p>Sorry, you'll pull through just fine. I promise.</p>
+	</div>
+</div>
+
+<!-- Home Sweet Home -->
+<div id='home_sweet_home' class='c title'>
+	<h2 class='g'>home, sweet home.</h2>
+	<div class='glowBox'>
+		<img src='/img/home_sweet_home.png' />
+	</div>
+	<p>10 years, 8 roommates, 4 pets, 3 apartments and a house. We've been at this for a while now, and think we have the whole <em>"living together without killing each other"</em> thing pretty well handled. We've been acting like a married couple for half a decade anyway, it's time to start doing it for real now.</p>
+</div>
+
+<!-- Photo gallery -->
+<div id='photos' class='c'>
+	{{photos|drawPhotos}}
+</div>
+
+{% endblock %}
