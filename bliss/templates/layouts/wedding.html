@@ -1,9 +1,11 @@
 {% load ui %}
 <html>
 <head>
-	<title>{% block title %}James Vreeland &amp; Amanda Simmons - August 1, 2010{% endblock %}
+	<title>{% block title %}James Vreeland &amp; Amanda Simmons - August 1, 2010{% endblock %}</title>
 	<link rel="stylesheet" href="/css/core.css" type="text/css" media="screen" charset="utf-8" />
 	<link rel="shortcut icon" href="/img/favicon.ico" />
+
+	<script src='http://code.jquery.com/jquery-1.4.2.min.js'></script>
 </head>
 <body>
 	<div id='wrapper'>
@@ -19,9 +21,18 @@
 		
 		{% block content %}{% endblock %}
 		
+		<div id='fb' class='c glowBox'>
+			<div id='fb-contents'>
+				<fb:comments css='http://jamesandamanda.com/css/fb.css?1'></fb:comments>
+			</div>
+		</div>
+				
 		<div id='footer' class='c'>
 			It's not a wedding site until someone busts out Zapfino
 		</div>
+		<div id="fb-root"></div>
+		<script src='/js/jquery.galleriffic.js'></script>
+		<script src='/js/core.js'></script>
 	</div>
 </body>
 </html>

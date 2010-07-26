@@ -38,6 +38,9 @@ body {
         box-shadow:         0px 0px 25px rgba(56,52,45,0.4);
         }
         
+img {
+    border: none;
+    }
 
 
 /*  Fonts  */
@@ -168,3 +171,78 @@ h4 {
     color: #777777;
     font-style: italic;
     }
+    
+/* Photos */
+.photos {
+    padding-bottom: 45px;
+    padding-top: 15px;
+    }
+    
+.controls {
+    position: absolute;
+    }
+
+.slideshow {
+    background: #222222;
+    }
+    
+.thumbs {
+    list-style: none;
+    margin: 15px -15px 0 0;
+    padding: 0;
+    }
+
+.thumbs li {
+    float: left;
+    margin: 0 9px 10px 0;
+    padding: 0;
+    }
+    
+    .thumbs img {
+        border: 3px solid #333333;
+        }
+        
+        .thumbs .selected img {
+            border: 3px solid #F2D44E;
+            }
+    
+    
+/* FB */
+#fb {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    }
+#fb-contents{
+    padding: 15px;
+    }
+    
+/*  Footer  */
+#footer {
+    margin-top: 15px;
+    margin-bottom: 45px;
+    }
+    
+.ac:after {
+	content:        ".";
+	display:        block;
+	height:         0;
+	clear:          both;
+	visibility:     hidden;
+    }
+
+.ac { 
+    display:        inline-block;
+    }
+
+/* Hides from IE-mac \*/
+* html .ac { 
+    height:         1%;
+    }
+
+.ac { 
+    display:        block;
+    }
+* {
+    outline:none;
+    }
+/* End hide from IE-mac */
