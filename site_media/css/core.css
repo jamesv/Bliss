@@ -13,11 +13,13 @@ body {
     #wrapper {
         background: url('../img/bg.png') no-repeat 20% 0%;
         height: 100%;
+        text-align: center;
         }
         
     .content, .c {
         width: 700px;
         margin: 0 auto;
+        text-align: left;
         }
         
         .c.title {
