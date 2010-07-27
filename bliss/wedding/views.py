@@ -54,3 +54,22 @@ def about(request):
     template = "wedding/about.html"
 
     return render_to_response(template, data)
+    
+###
+# Function: day
+#
+# Displays a given day's overview
+#
+# Parameters:
+#
+# Returns:
+#   *render_to_response*
+#
+def day(request, id):
+    data = {'curr_page':'day_'+id}
+    data['photos'] = [
+        ['00_00_couple', 'fpo'],
+    ]
+    template = "wedding/day_1.html"
+
+    return render_to_response(template, data)

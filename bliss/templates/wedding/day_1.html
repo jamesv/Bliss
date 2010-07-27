@@ -1,0 +1,56 @@
+{% extends "layouts/wedding.html" %}
+{% load ui %}
+
+{% block title %}Day 1 - Something witty{% endblock %}
+
+{% block content %}
+
+<!-- Photo gallery -->
+<div id='photos' class='c'>
+	{{photos|drawPhotos}}
+</div>
+
+<!-- What went down this day? -->
+<div id='news' class='c title'>
+	<div class='g'>
+		<h2>title</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	</div>
+</div>
+
+<div id='stats' class='c title'>
+	<div class='ac'>
+		<div class='col'>
+			<div class='gb'>
+				<h3># of $0.99 margaritas</h3>
+				<div class='s_5'>7</div>
+			</div>
+			<div class='gb'>
+				<h3># of $0.99 margaritas</h3>
+				<div class='s_1'>lorem ipsum se dolor sit amet foo bar baz irure dolor in reprehe lorem rit in voluptat</div>
+			</div>
+		</div>
+		<div class='col middle'>
+			<div class='gb'>
+				<h3># of $0.99 margaritas</h3>
+				<div class='s_2'>$123.00</div>
+			</div>
+			<div class='gb'>
+				<h3># of $0.99 margaritas</h3>
+				<div class='s_4'>75</div>
+			</div>
+			<div class='gb'>
+				<h3># of $0.99 margaritas</h3>
+				<div class='s_3'>123</div>
+			</div>
+		</div>
+		<div class='col'>
+			<div class='gb'>
+				<h3>areas of conquest</h3>
+				<img src='/img/map_01.png'>
+			</div>
+		</div>
+	</div>
+</div>
+
+{% endblock %}

@@ -9,6 +9,7 @@
 </head>
 <body>
 	<div id='wrapper'>
+
 		<div id='header' class='c glowBox'>
 			<h1>james <span class='dull'>&amp;</span> amanda</h1>
 			<h4>august 1, 2010</h4>
@@ -18,7 +19,7 @@
 			<img src='/img/corner.png' class='corner tl' />
 			<img src='/img/corner.png' class='corner br' />
 		</div>
-		
+
 		{% block content %}{% endblock %}
 		
 		<div id='fb' class='c glowBox'>
@@ -33,6 +34,17 @@
 		<div id="fb-root"></div>
 		<script src='/js/jquery.galleriffic.js'></script>
 		<script src='/js/core.js'></script>
+
+		<script type="text/javascript">
+			var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+			document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+		</script>
+		<script type="text/javascript">
+			try{
+				var pageTracker = _gat._getTracker("UA-639236-21");
+				pageTracker._trackPageview();
+			} catch(err) {}
+		</script>
 	</div>
 </body>
 </html>

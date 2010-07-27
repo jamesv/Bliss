@@ -17,5 +17,7 @@ urlpatterns  = patterns('')
 urlpatterns += patterns('bliss.wedding.views',
     url(r'^$','home',name='wedding-home'),
     url(r'^about/$','about',name='wedding-about'),
+    url(r'^day/(?P<id>[1-1]{1})/$','day',name='wedding-day'),
+    
         
 )
