@@ -196,13 +196,64 @@ h4 {
     
 /* Photos */
 .photos {
-    padding-bottom: 45px;
+    padding-bottom: 35px;
     padding-top: 15px;
     }
     
 .controls {
     position: absolute;
+    width: 100%;
     }
+
+    .controls .ss-controls {
+        position: absolute;
+        text-align: center;
+        width: 670px;
+        }
+        
+        .controls .ss-controls a {
+            font-size: 12px;
+            color: #777777;
+            text-decoration: none;
+            border-bottom: 1px solid #B8C45A;
+            padding-bottom: 2px;
+            }
+
+            .controls .ss-controls a:hover {
+                color: #B8C45A;
+                }
+            
+    .controls .nav-controls {
+        position: absolute;
+        width: 670px;
+        }
+    
+        
+        .controls .nav-controls a {
+            display: block;
+            position: absolute;
+            border: 1px solid #333333;
+            text-decoration: none;
+            color: #B8C45A;
+            background: #000000;
+            text-align: center;
+            width: 20px;
+            height: 20px;
+            font-size: 13px;
+            }
+            
+            .controls .nav-controls a:hover {
+                border: 1px solid #555555;
+                background: #333333;
+                }
+                
+        .controls .prev {
+            left: 0;
+            }
+
+        .controls .next {
+            right: 0;
+            }
 
 .slideshow {
     background: #222222;
