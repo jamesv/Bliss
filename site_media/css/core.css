@@ -58,6 +58,17 @@ body {
     text-justify: newspaper;
     }
 
+a {
+    color: #FAF5F5;
+    text-decoration: none;
+    border-bottom: 1px solid #B8C45A;
+    padding-bottom: 1px;
+    }
+        
+    a:hover {
+        color: #B8C45A;
+        }
+
 p {
     line-height: 18px;
     }
@@ -192,6 +203,11 @@ h4 {
 .signed {
     color: #777777;
     font-style: italic;
+    }
+
+#instructions li {
+    list-style-type: circle;
+    padding-bottom: 2px;
     }
     
 /* Photos */
