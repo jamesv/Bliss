@@ -67,8 +67,20 @@ def about(request):
 #
 def day(request, id):
     data = {'curr_page':'day_'+id}
+    
+    
     data['photos'] = [
-        ['00_00_couple', 'fpo'],
+        ['01_01_graceland', ''],
+        ['01_02_graceland_smooch', ''],
+        ['01_03_simmons_graceland', ''],
+        ['01_04_scary_driving', ''],
+        ['01_05_hot_wife', ''],
+        ['01_06_glitter', ''],
+        ['01_07_lf8r', ''],
+        ['01_08_dtw', ''],
+        ['01_09_license', ''],
+        ['01_10_bureau', ''],
+        ['01_11_hallway', ''],
     ]
     template = "wedding/day_1.html"
 
