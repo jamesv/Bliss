@@ -10,6 +10,9 @@
 .connect_text_wrapper a {
     color: #777777;
     text-decoration: none;
+}
+
+.connect_text_wrapper a {
     border-bottom: 1px solid #B8C45A;
     padding-bottom: 2px;
 }
