@@ -6,6 +6,7 @@
     color: #FAF5F5;
 }
 
+.wallkit_postcontent a,
 .connect_text_wrapper a {
     color: #777777;
     text-decoration: none;
@@ -13,6 +14,7 @@
     padding-bottom: 2px;
 }
 
+.wallkit_postcontent a:hover,
 .connect_text_wrapper a:hover{
     color: #B8C45A;
 }
