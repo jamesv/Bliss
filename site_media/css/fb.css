@@ -1,3 +1,7 @@
+body {
+    color: #FAF5F5;
+}
+
 .connect_text_wrapper {
     color: #FAF5F5;
 }
@@ -11,4 +15,8 @@
 
 .connect_text_wrapper a:hover{
     color: #B8C45A;
+}
+
+.wallkit_post {
+    border-bottom:1px dotted #777777;
 }
