@@ -31,6 +31,10 @@ body {
         padding-left: 15px;
         padding-right: 15px;
         }
+    
+    .p {
+        padding-bottom: 15px;
+        }
         
     .glowBox, .gb {
         background: #111111;
@@ -76,6 +80,7 @@ p {
     line-height: 18px;
     }
     
+
 em {
     color: #F2D44E; 
     font-style: normal;
@@ -121,10 +126,19 @@ h4 {
     color: #777777;
     }
 
-.s_1, .s_2, .s_3, .s_4, .s_5 {
+.s_0, .s_1, .s_2, .s_3, .s_4, .s_5 {
     color: #F2D44E;
     }
 
+    .s_0.dull,  .s_1.dull,  .s_2.dull,  .s_3.dull,  .s_4.dull,  .s_5.dull,
+    .s_0 .dull, .s_1 .dull, .s_2 .dull, .s_3 .dull, .s_4 .dull, .s_5 .dull  {
+        color: #777777;
+        }
+
+
+
+
+.s_0 { font-size: 12px;   line-height: 17px;}
 .s_1 { font-size: 14px;   line-height: 20px;}
 .s_2 { font-size: 35px;   line-height: 50px;}
 .s_3 { font-size: 60px;   line-height: 60px;}

@@ -1,0 +1,72 @@
+{% extends "layouts/wedding.html" %}
+{% load ui %}
+
+{% block title %}Day 2 - In which, we loaf around - James &amp; Amanda{% endblock %}
+
+{% block content %}
+
+<!-- Photo gallery -->
+<div id='photos' class='c'>
+	{{photos|drawPhotos}}
+</div>
+
+<!-- What went down this day? -->
+<div id='news' class='c title'>
+	<div class='g'>
+		<h2>we're not here to lie to you...</h2>
+		<p>if it didn't have to do with basic bodily functions or floating in a pool, it didn't get done today.</p>
+		<p>Since our bodies are still halfway on Michigan time we woke up bright and early, and launched this site. The outpouring from everyone has been staggering, so thank you all. By 9:30am we had sorted through all the photos we have taken over the past few days, handled all of the retouching/resizing to get them on the site, written some smarmy copy to tie it all together and sent it live.</p>
+		<p>We celebrated this minor victory with a lovely breakfast at Mr. Lucky's, and by 10am we had reached the high point of productivity of the day. At that point we hit the strip to find Amanda a new swimsuit which was immediately put to the test with half a day's soak in the pool. Followed by a nap.</p>
+		<p>Once properly recuperated it was decided that we would dine upon the <em>finest buffet $10 a head could procure</em>. We went all in with an $11 Yelp favorite in old vegas and were not disappointed. After which we sauntered through Freemont street and retired to the hotel for more napping.</p>
+	</div>
+</div>
+
+<div id='stats' class='c title'>
+	<div class='ac'>
+		<div class='col'>
+			<div class='gb'>
+				<h3>Naps taken</h3>
+				<div class='s_4'>1.2</div>
+				<div class='s_0 dull'>(James sucks at naps)</div>
+			</div>
+			<div class='gb'>
+				<h3>$1 at the penny slots</h3>
+				<img src='/img/stats/graph_penny_slots.png'>
+				<div class='s_0 dull'>High water mark of $6.56</div>
+			</div>
+			<div class='gb'>
+				<h3>Best slot machine name</h3>
+				<div class='s_1 p'>Deviled Eggs</div>
+				<h3>Runner up</h3>
+				<div class='s_1'>Enchanted Unicorn</div>
+			</div>
+		</div>
+		<div class='col middle'>
+			<div class='gb'>
+				<h3>Cash spent on fufu drinks</h3>
+				<div class='s_3'>$24.00</div>
+			</div>
+			<div class='gb'>
+				<h3>Breakfast of champions</h3>
+				<div class='s_1'>Corned beef hash, three eggs and toast</div><div class='s_0 dull p'>Amanda</div>
+				<div class='s_1'>Breakfast quesadilla with chorizo and eggs</div><div class='s_0 dull'>James</div>
+			</div>
+			<div class='gb'>
+				<h3>This site has prompted</h3>
+				<img src='/img/stats/bar_conversation.png'>
+			</div>
+		</div>
+		<div class='col'>
+			<div class='gb'>
+				<h3>Areas of exploration</h3>
+				<img src='/img/stats/map_day2.png'>
+			</div>
+			<div class='gb'>
+				<h3>Hours spent floating in the sand bottom pool</h3>
+				<div class='s_3'>4.5</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+{% endblock %}
