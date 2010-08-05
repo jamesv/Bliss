@@ -93,6 +93,20 @@ def day(request, id):
             ['02_07_cowgirl', ''],
             ['02_08_freemont', ''],
         ]
+    elif id == '3':
+        data['photos'] = [
+            ['03_04_wine', ''],
+            ['03_03_chico', ''],
+            ['03_01_amanda_sun', ''],
+            ['03_02_poolside', ''],
+            ['03_05_dinner', ''],
+            ['03_06_skyline', ''],
+        ]
+    elif id == '4':
+        data['photos'] = [
+            ['02_01_stripper', ''],
+        ]
+    
     template = "wedding/day_"+id+".html"
 
     return render_to_response(template, data)

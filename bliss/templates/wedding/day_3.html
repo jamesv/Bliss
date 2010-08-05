@@ -1,0 +1,67 @@
+{% extends "layouts/wedding.html" %}
+{% load ui %}
+
+{% block title %}Day 3 - We are not coming home - James &amp; Amanda{% endblock %}
+
+{% block content %}
+
+<!-- Photo gallery -->
+<div id='photos' class='c'>
+	{{photos|drawPhotos}}
+</div>
+
+<!-- What went down this day? -->
+<div id='news' class='c title'>
+	<div class='g'>
+		<h2>our transition back to normal life will be difficult</h2>
+		<p>As it turns out, renting a car from a place specializing in exotic imports, in a stripmall, is preciously as sketchy as you would expect it to be. While we were waiting to check out, we were repeatedly offered an <em>adorable puppy</em> in exchange for paying off a few bills for a couple that had landed on hard times. Luckily for us, the owner of an adjoining shop had a soft spot for pits and gave Chico a new home. We collected our Wrangler and set about our grand tour of the strip, ending with a rambling stroll through the Palazzo Shops @ The Venetian.</p>
+		<p>We returned to our room, set down our things and were startled by a knock at the door. Having a reasonable degree of confidence that we were not about to be thrown out, James answered and was presented with a lovely bottle of wine from his mother. <em>Thank you Angie &amp; Ed!</em> It was opened we went to work on it almost immediately. Then took a nap.</p>
+		<p>Afterwards we laid around the pool until we were kicked out at closing.</p>
+		<p>Needing sustenance after roasting for hours, our thoughts turned to an Indian restaurant uncovered in previous night's buffet hunt. We fired up the GPS and bolted away from the sights and sounds of the strip, ending up at a tiny building in the parking lot of a Staples. Upon entering we found ourselves the sole patrons and I think we even startled the man behind the register who was deeply involved in the Bengaluru soap opera blaring on a flatscreen by the kitchen. <em>This was the right place to be.</em> We placed our order and the place slowly began to fill in with Punjabi locals, another excellent sign. The food was incredible and we spent the remainder of the evening driving around just taking in the night air.</p>
+	</div>
+</div>
+
+<div id='stats' class='c title'>
+	<div class='ac'>
+		<div class='col'>
+
+			<div class='gb'>
+				<h3>Hours spent poolside</h3>
+				<div class='s_3'>3.5</div>
+			</div>
+			
+			<div class='gb'>
+				<h3>Dudes in speedos vs gals in lingerie in the pool</h3>
+				<img class='p' src='/img/stats/pie_speedo_lingerie.png'>
+				<div class='s_0 dull'>(3 dudes / 5 gals)</div>
+			</div>
+		</div>
+		<div class='col middle'>
+			<div class='gb'>
+				<h3>Best stripper name used by a non-dancer</h3>
+				<div class='s_4'>Pixi</div>
+				<div class='s_0 dull'>@ Dream Car Rentals</div>
+			</div>
+			<div class='gb'>
+				<h3>Cameras killed after being tossed in a bag with a soon-to-be-spilled drink</h3>
+				<div class='s_5'>1</div>
+			</div>
+			
+		</div>
+		<div class='col'>
+			<div class='gb'>
+				<h3>In-room boozing</h3>
+				<img src='/img/stats/info_drink_levels.png'>
+				<!--<div class='s_0 dull'>(Amount remaining)</div>-->
+			</div>
+			<div class='gb'>
+				<h3>Best slot machine name</h3>
+				<div class='s_1 p'>Xanadu</div>
+				<h3>Runner up</h3>
+				<div class='s_1'>Stargate SG-1</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+{% endblock %}
