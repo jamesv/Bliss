@@ -19,7 +19,7 @@ NAV_ITEMS = [
     ['day_1',   'day 1',    'day/1/'],
     ['day_2',   'day 2',    'day/2/'],
     ['day_3',   'day 3',    'day/3/'],
-    ['day_4',   'day 4',    0],
+    ['day_4',   'day 4',    'day/4/'],
     ['day_5',   'day 5',    0],
 ]
 

@@ -21,6 +21,10 @@ body {
         margin: 0 auto;
         text-align: left;
         }
+
+        .c p {
+            text-align: justify; 
+            }
         
         .c.title {
             padding-top: 30px;
@@ -34,6 +38,10 @@ body {
     
     .p {
         padding-bottom: 15px;
+        }
+        
+    .pl {
+        padding-bottom: 10px;
         }
         
     .glowBox, .gb {
@@ -103,7 +111,8 @@ h1 {
     margin-bottom:15px;
     }
     
-    h1 .dull {
+    h1 .dull,
+    .dull {
         color: #999999;
         }
 

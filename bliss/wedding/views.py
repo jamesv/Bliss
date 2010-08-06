@@ -104,7 +104,25 @@ def day(request, id):
         ]
     elif id == '4':
         data['photos'] = [
-            ['02_01_stripper', ''],
+            ['04_01_simmons_jeep', ''],
+            ['04_02_james_desert', ''],
+            ['04_03_scenic', ''],
+            ['04_04_detour', ''],
+            ['04_05_entrance', ''],
+            ['04_06_cave', ''],
+            ['04_07_exploring', ''],
+            ['04_08_wood', ''],
+            ['04_09_shade', ''],
+            ['04_10_love', ''],
+            ['04_11_mouse', ''],
+            ['04_12_squirrel', ''],
+            ['04_13_glyph', ''],
+            ['04_14_couple', ''],
+            ['04_15_treats', ''],
+            ['04_17b_fireside', 'http://www.flickr.com/photos/52212285@N00/2223564691/'],
+            ['04_16_fireside', ''],
+            ['04_17_drinks', ''],
+            ['04_18_sam', ''],
         ]
     
     template = "wedding/day_"+id+".html"
