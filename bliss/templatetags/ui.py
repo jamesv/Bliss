@@ -20,7 +20,7 @@ NAV_ITEMS = [
     ['day_2',   'day 2',    'day/2/'],
     ['day_3',   'day 3',    'day/3/'],
     ['day_4',   'day 4',    'day/4/'],
-    ['day_5',   'day 5',    'day/5/'],
+    ['day_5',   'day 5',    0],
 ]
 
 @register.filter()
