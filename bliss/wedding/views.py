@@ -124,7 +124,11 @@ def day(request, id):
             ['04_17_drinks', ''],
             ['04_18_sam', ''],
         ]
-    
+    elif id == '5':
+        data['photos'] = [
+            ['05_01_', ''],
+        ]
+        
     template = "wedding/day_"+id+".html"
 
     return render_to_response(template, data)
