@@ -135,18 +135,24 @@ h4 {
     color: #777777;
     }
 
-.s_0, .s_1, .s_2, .s_3, .s_4, .s_5 {
+.s__1, .s_0, .s_1, .s_2, .s_3, .s_4, .s_5 {
     color: #F2D44E;
     }
 
-    .s_0.dull,  .s_1.dull,  .s_2.dull,  .s_3.dull,  .s_4.dull,  .s_5.dull,
-    .s_0 .dull, .s_1 .dull, .s_2 .dull, .s_3 .dull, .s_4 .dull, .s_5 .dull  {
+    .s__1.dull,  .s_0.dull,  .s_1.dull,  .s_2.dull,  .s_3.dull,  .s_4.dull,  .s_5.dull,
+    .s__1.dull, .s_0 .dull, .s_1 .dull, .s_2 .dull, .s_3 .dull, .s_4 .dull, .s_5 .dull  {
         color: #777777;
+        }
+
+    .s__1.alt,  .s_0.alt,  .s_1.alt,  .s_2.alt,  .s_3.alt,  .s_4.alt,  .s_5.alt,
+    .s__1.alt, .s_0 .alt, .s_1 .alt, .s_2 .alt, .s_3 .alt, .s_4 .alt, .s_5 .alt  {
+        color: #E880A2;
         }
 
 
 
 
+.s__1{ font-size: 10px;   line-height: 15px;}
 .s_0 { font-size: 12px;   line-height: 17px;}
 .s_1 { font-size: 14px;   line-height: 20px;}
 .s_2 { font-size: 35px;   line-height: 50px;}

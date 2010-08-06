@@ -126,7 +126,9 @@ def day(request, id):
         ]
     elif id == '5':
         data['photos'] = [
-            ['05_01_', ''],
+            ['05_01_airport', ''],
+            ['05_02_strip', ''],
+            ['05_03_cloud', ''],
         ]
         
     template = "wedding/day_"+id+".html"
